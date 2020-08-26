@@ -148,6 +148,8 @@
                         
                         if($tbGalleryResult->num_rows > 0)
                         {
+                            echo "<h3>Image Gallery</h3>";
+                            
                             echo "<div class='row imageGallery'>";
                                     while($row = $tbGalleryResult->fetch_assoc())
                                     {
